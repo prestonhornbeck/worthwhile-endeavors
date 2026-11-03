@@ -88,10 +88,10 @@ export default function Home() {
               Achieving More, Side by Side.
             </h2>
             <p className="text-gray-600 leading-relaxed mb-4">
-              At Worthwhile Endeavors, we believe every person — regardless of disability — deserves the opportunity to contribute, earn, and thrive in competitive employment.
+              You — or someone you love — deserves a real shot at meaningful work. Not a workaround. Not a sheltered option. A real job, with real pay, alongside everyone else.
             </p>
             <p className="text-gray-600 leading-relaxed mb-8">
-              We work alongside our clients, their families, and employers to remove barriers and build the skills, confidence, and connections needed for lasting success in the workforce.
+              That&apos;s what we&apos;re here for. We walk alongside clients, families, and employers to remove the barriers standing between a person and the career they&apos;re capable of building.
             </p>
             <Link
               href="/services"
