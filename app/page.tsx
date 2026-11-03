@@ -88,7 +88,7 @@ export default function Home() {
               Achieving More, Side by Side.
             </h2>
             <p className="text-gray-600 leading-relaxed mb-4">
-              You — or someone you love — deserves a real shot at meaningful work. Not a workaround. Not a sheltered option. A real job, with real pay, alongside everyone else.
+              For individuals referred through the Texas Workforce Commission, Worthwhile Endeavors is a partner in the employment journey. We assess where each client is, identify their abilities, and build a path toward real, competitive employment.
             </p>
             <p className="text-gray-600 leading-relaxed mb-8">
               That&apos;s what we&apos;re here for. We walk alongside clients, families, and employers to remove the barriers standing between a person and the career they&apos;re capable of building.
