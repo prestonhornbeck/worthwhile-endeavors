@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function Footer() {
   return (
     <footer className="bg-[#1a1a2e] text-white py-12 px-6">
-      <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
         {/* Brand */}
         <div>
           <div className="flex items-center gap-3 mb-4">
@@ -22,16 +22,20 @@ export default function Footer() {
           </p>
         </div>
 
-        {/* Links */}
+        {/* Navigate */}
         <div>
           <p className="text-xs uppercase tracking-widest text-gray-500 mb-4">
             Navigate
           </p>
-          <ul className="space-y-2 text-sm text-gray-400 mb-6">
+          <ul className="space-y-2 text-sm text-gray-400">
             <li><Link href="/about" className="hover:text-white transition-colors">About</Link></li>
             <li><Link href="/employers" className="hover:text-white transition-colors">For Employers</Link></li>
             <li><Link href="/contact" className="hover:text-white transition-colors">Contact</Link></li>
           </ul>
+        </div>
+
+        {/* Services */}
+        <div>
           <p className="text-xs uppercase tracking-widest text-gray-500 mb-4">
             Services
           </p>
