@@ -46,8 +46,8 @@ export default function AboutPage() {
           </div>
           <div className="relative h-72 md:h-96 rounded-2xl overflow-hidden">
             <Image
-              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80"
-              alt="Paul Frey, Director of Worthwhile Endeavors"
+              src="/images/coaching-session.jpeg"
+              alt="A coaching session between a job counselor and a client"
               fill
               className="object-cover"
             />

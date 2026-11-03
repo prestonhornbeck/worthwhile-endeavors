@@ -13,8 +13,8 @@ export default function EnvironmentalWorkAssessment() {
       tag="Assessment"
       title="Environmental Work Assessment"
       subtitle="A diagnostic tool that evaluates how a client performs across multiple real work environments — identifying strengths, barriers, and the best path forward."
-      image="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&q=80"
-      imageAlt="Person being observed working in a professional environment"
+      image="/images/candidate-selection.jpeg"
+      imageAlt="Selecting the right candidate for the right role"
       highlights={[
         "Assessment across 3+ real work environments",
         "Observation of skills, behavior, and adaptability",

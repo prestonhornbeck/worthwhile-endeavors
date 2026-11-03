@@ -13,8 +13,8 @@ export default function SupportedEmployment() {
       tag="Adult Services"
       title="Supported Employment"
       subtitle="Individualized assistance that enables clients with significant disabilities to enter and thrive in competitive, integrated employment."
-      image="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=800&q=80"
-      imageAlt="Two colleagues working together at a desk"
+      image="/images/bakery-training.jpeg"
+      imageAlt="Job coach and client with Down syndrome working together in a bakery"
       highlights={[
         "Individualized job matching based on skills and goals",
         "Ongoing support during and after placement",

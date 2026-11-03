@@ -65,8 +65,8 @@ export default function EmployersPage() {
           </div>
           <div className="relative h-72 md:h-96 rounded-2xl overflow-hidden">
             <Image
-              src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=800&q=80"
-              alt="Business team in a meeting"
+              src="/images/employer-handshake.jpeg"
+              alt="Employer shaking hands with a new hire"
               fill
               className="object-cover"
             />
@@ -128,8 +128,8 @@ export default function EmployersPage() {
         <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-16 items-center">
           <div className="relative h-72 md:h-96 rounded-2xl overflow-hidden">
             <Image
-              src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=800&q=80"
-              alt="Employees collaborating in a workplace"
+              src="/images/job-interview.jpeg"
+              alt="Job interview in progress"
               fill
               className="object-cover"
             />

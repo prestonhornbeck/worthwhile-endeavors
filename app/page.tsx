@@ -31,8 +31,8 @@ export default function Home() {
       {/* Hero */}
       <section className="relative min-h-screen flex items-end mt-16">
         <Image
-          src="https://images.unsplash.com/photo-1521791136064-7986c2920216?w=1600&q=80"
-          alt="Two people working together in an office"
+          src="/images/hero-client-at-work.jpeg"
+          alt="Client with Down syndrome smiling at work in a grocery store"
           fill
           className="object-cover"
           priority
@@ -102,8 +102,8 @@ export default function Home() {
           </div>
           <div className="relative h-80 md:h-96 rounded-2xl overflow-hidden">
             <Image
-              src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=800&q=80"
-              alt="Professional meeting between two colleagues"
+              src="/images/side-by-side.jpeg"
+              alt="Two colleagues working together side by side"
               fill
               className="object-cover"
             />
@@ -155,8 +155,8 @@ export default function Home() {
         <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-16 items-center">
           <div className="relative h-80 md:h-96 rounded-2xl overflow-hidden order-2 md:order-1">
             <Image
-              src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=800&q=80"
-              alt="Business team in a meeting"
+              src="/images/employer-handshake.jpeg"
+              alt="Employer shaking hands with a new hire"
               fill
               className="object-cover"
             />

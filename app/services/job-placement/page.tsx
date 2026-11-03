@@ -13,8 +13,8 @@ export default function JobPlacement() {
       tag="Adult Services"
       title="Job Placement"
       subtitle="Comprehensive job search support that prepares clients to find and secure a position aligned with their skills, interests, and career goals."
-      image="https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=800&q=80"
-      imageAlt="Person reviewing a resume in an office"
+      image="/images/resume-search.jpeg"
+      imageAlt="HR professional reviewing candidate resumes"
       highlights={[
         "Resume development and interview preparation",
         "Job search strategy and employer outreach",

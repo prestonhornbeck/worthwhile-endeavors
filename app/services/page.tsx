@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 
@@ -64,16 +65,26 @@ export default function ServicesPage() {
     <>
       {/* Header */}
       <section className="bg-[#1a1a2e] pt-32 pb-20 px-6">
-        <div className="max-w-6xl mx-auto">
-          <p className="text-xs uppercase tracking-widest text-[#f5c842] font-semibold mb-4">
-            What We Offer
-          </p>
-          <h1 className="text-4xl md:text-5xl font-bold text-white leading-tight max-w-2xl mb-6">
-            Services Built Around Every Client
-          </h1>
-          <p className="text-gray-400 max-w-xl text-lg">
-            From first assessment to long-term employment support, our services are referred through the Texas Workforce Commission and tailored to each individual&apos;s needs.
-          </p>
+        <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+          <div>
+            <p className="text-xs uppercase tracking-widest text-[#f5c842] font-semibold mb-4">
+              What We Offer
+            </p>
+            <h1 className="text-4xl md:text-5xl font-bold text-white leading-tight mb-6">
+              Services Built Around Every Client
+            </h1>
+            <p className="text-gray-400 max-w-xl text-lg">
+              From first assessment to long-term employment support, our services are referred through the Texas Workforce Commission and tailored to each individual&apos;s needs.
+            </p>
+          </div>
+          <div className="relative h-72 md:h-80 rounded-2xl overflow-hidden">
+            <Image
+              src="/images/office-worker.jpeg"
+              alt="Client working independently at a standing desk in an office"
+              fill
+              className="object-cover"
+            />
+          </div>
         </div>
       </section>
 
