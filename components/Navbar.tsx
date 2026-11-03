@@ -5,8 +5,9 @@ import { useState } from "react";
 import { Menu, X } from "lucide-react";
 
 const links = [
+  { label: "About", href: "/about" },
   { label: "Services", href: "/services" },
-  { label: "Contact", href: "/contact" },
+  { label: "For Employers", href: "/employers" },
 ];
 
 export default function Navbar() {

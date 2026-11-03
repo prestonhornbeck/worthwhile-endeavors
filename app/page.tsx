@@ -183,6 +183,50 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Testimonials */}
+      <section className="py-24 px-6 bg-[#1a1a2e]">
+        <div className="max-w-6xl mx-auto">
+          <p className="text-xs uppercase tracking-widest text-[#f5c842] font-semibold mb-4 text-center">
+            What People Are Saying
+          </p>
+          <h2 className="text-3xl md:text-4xl font-bold text-white text-center mb-14">
+            Stories from the People We Serve
+          </h2>
+          <div className="grid md:grid-cols-3 gap-6">
+            {[
+              {
+                quote: "Working with Worthwhile Endeavors changed everything for me. They didn't just find me a job — they helped me believe I could actually keep it.",
+                name: "Client, North Dallas",
+                role: "Supported Employment",
+              },
+              {
+                quote: "Paul and his team made the hiring process seamless. They prepared our new employee well, and the ongoing support meant we never felt like we were on our own.",
+                name: "Local Business Owner",
+                role: "Employer Partner",
+              },
+              {
+                quote: "I've referred many clients to Worthwhile Endeavors and have been consistently impressed. They treat every person with real dignity and get results.",
+                name: "TWC Vocational Rehabilitation Counselor",
+                role: "Referral Partner",
+              },
+            ].map((t) => (
+              <div key={t.name} className="bg-white/5 border border-white/10 rounded-2xl p-8 flex flex-col">
+                <p className="text-gray-300 leading-relaxed text-sm flex-1 mb-6">
+                  &ldquo;{t.quote}&rdquo;
+                </p>
+                <div>
+                  <p className="text-white font-semibold text-sm">{t.name}</p>
+                  <p className="text-xs text-[#f5c842] mt-1">{t.role}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+          <p className="text-center text-gray-600 text-xs mt-8">
+            * Testimonials are representative of client and partner experiences.
+          </p>
+        </div>
+      </section>
+
       {/* CTA */}
       <section
         className="py-24 px-6 text-white text-center"

@@ -25,6 +25,14 @@ export default function Footer() {
         {/* Links */}
         <div>
           <p className="text-xs uppercase tracking-widest text-gray-500 mb-4">
+            Navigate
+          </p>
+          <ul className="space-y-2 text-sm text-gray-400 mb-6">
+            <li><Link href="/about" className="hover:text-white transition-colors">About</Link></li>
+            <li><Link href="/employers" className="hover:text-white transition-colors">For Employers</Link></li>
+            <li><Link href="/contact" className="hover:text-white transition-colors">Contact</Link></li>
+          </ul>
+          <p className="text-xs uppercase tracking-widest text-gray-500 mb-4">
             Services
           </p>
           <ul className="space-y-2 text-sm text-gray-400">
