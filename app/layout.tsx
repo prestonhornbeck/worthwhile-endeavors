@@ -12,7 +12,7 @@ const geist = Geist({
 export const metadata: Metadata = {
   title: "Worthwhile Endeavors | Workforce Services for People with Disabilities",
   description:
-    "Worthwhile Endeavors helps individuals with disabilities prepare for and enter competitive employment. Serving Texas through TWC-referred vocational and job placement services.",
+    "Worthwhile Endeavors helps individuals with disabilities prepare for and enter competitive employment. Based in McKinney, TX — serving North Dallas and the greater DFW area through TWC-referred vocational services.",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

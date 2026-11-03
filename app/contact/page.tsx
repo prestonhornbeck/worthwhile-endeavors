@@ -59,10 +59,10 @@ export default function ContactPage() {
                 <div>
                   <p className="text-xs uppercase tracking-widest text-gray-400 mb-1">Email</p>
                   <a
-                    href="mailto:paul@worthwhileendeavors.com"
+                    href="mailto:Paul.Frey@iamworthwhile.org"
                     className="text-[#1a1a2e] font-semibold hover:text-[#4a5b9a] transition-colors"
                   >
-                    paul@worthwhileendeavors.com
+                    Paul.Frey@iamworthwhile.org
                   </a>
                 </div>
               </li>
@@ -75,7 +75,8 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <p className="text-xs uppercase tracking-widest text-gray-400 mb-1">Location</p>
-                  <p className="text-[#1a1a2e] font-semibold">Texas</p>
+                  <p className="text-[#1a1a2e] font-semibold">McKinney, TX</p>
+                  <p className="text-sm text-gray-500 mt-1">Serving McKinney, North Dallas, and the greater DFW area</p>
                 </div>
               </li>
             </ul>

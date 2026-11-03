@@ -43,6 +43,7 @@ export default function Footer() {
           </p>
           <ul className="space-y-2 text-sm text-gray-400">
             <li>Paul Frey, Director</li>
+            <li className="text-gray-500 text-xs">McKinney, TX · Serving DFW</li>
             <li>
               <a href="tel:7174068286" className="hover:text-white transition-colors">
                 717-406-8286
