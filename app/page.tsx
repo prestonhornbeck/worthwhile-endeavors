@@ -10,17 +10,17 @@ export const metadata: Metadata = {
 };
 
 const services = [
-  { title: "Supported Employment", href: "/services/supported-employment", desc: "Individualized job matching and ongoing support for clients with significant disabilities." },
+  { title: "Supported Employment", href: "/services/supported-employment", desc: "Individualized job matching and ongoing support to help clients enter and thrive in competitive employment." },
   { title: "Job Placement", href: "/services/job-placement", desc: "End-to-end job search support to help clients land a position that fits their goals." },
   { title: "Job Skills Training", href: "/services/job-skills-training", desc: "Goal-focused training that builds independence and meets employer expectations." },
   { title: "Work Experience", href: "/services/work-experience", desc: "Short-term community placements that build real skills for long-term employment." },
-  { title: "Pre-ETS", href: "/services/pre-employment-transition-services", desc: "In-classroom work readiness for students ages 14–22 preparing for life after graduation." },
-  { title: "Summer Earn & Learn", href: "/services/summer-earn-and-learn", desc: "Paid summer work experience and employability training for students with disabilities." },
+  { title: "Summer Earn & Learn", href: "/services/summer-earn-and-learn", desc: "Paid summer work experience and employability training for students ages 14–22." },
+  { title: "Vocational Adjustment Training", href: "/services/vocational-adjustment-training", desc: "Classroom instruction that prepares high school students for competitive employment." },
 ];
 
 const stats = [
   { icon: Users, label: "Clients Served", value: "Hundreds" },
-  { icon: Briefcase, label: "Services Offered", value: "8" },
+  { icon: Briefcase, label: "Services Offered", value: "7" },
   { icon: Award, label: "TWC Partner", value: "Certified" },
   { icon: HeartHandshake, label: "Approach", value: "Side by Side" },
 ];
@@ -141,7 +141,7 @@ export default function Home() {
               className="inline-flex items-center gap-2 px-6 py-3 rounded-full font-semibold text-white text-sm transition-colors"
               style={{ backgroundColor: "#4a5b9a" }}
             >
-              View All 8 Services <ArrowRight size={16} />
+              View All Services <ArrowRight size={16} />
             </Link>
           </div>
         </div>

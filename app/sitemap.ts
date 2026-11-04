@@ -12,7 +12,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/services/environmental-work-assessment`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.8 },
     { url: `${base}/services/work-experience`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.8 },
     { url: `${base}/services/summer-earn-and-learn`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.8 },
-    { url: `${base}/services/pre-employment-transition-services`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.8 },
     { url: `${base}/services/vocational-adjustment-training`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.8 },
     { url: `${base}/about`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.8 },
     { url: `${base}/employers`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.8 },

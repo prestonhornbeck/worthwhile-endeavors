@@ -6,57 +6,86 @@ import { ArrowRight } from "lucide-react";
 export const metadata: Metadata = {
   title: "Services | Worthwhile Endeavors",
   description:
-    "Worthwhile Endeavors offers 8 vocational services for individuals with disabilities — from assessment and training to job placement and supported employment.",
+    "Worthwhile Endeavors offers vocational services for TWC-referred individuals — from assessment and training to job placement and supported employment.",
 };
 
 const services = [
   {
     title: "Supported Employment",
     href: "/services/supported-employment",
-    desc: "Enables clients with significant disabilities to enter competitive integrated employment through individualized job matching, ongoing support, and extended services.",
-    tag: "Adult Services",
+    desc: "Supported Employment enables clients to enter competitive, integrated employment through individualized job matching, ongoing coaching, and extended services that last well beyond the first day on the job. We work closely with both the client and the employer to ensure a lasting, productive match.",
+    highlights: [
+      "Individualized job matching based on skills and goals",
+      "Ongoing support during and after placement",
+      "Extended services for long-term stability",
+      "Coordination with employers and support networks",
+    ],
   },
   {
     title: "Job Placement",
     href: "/services/job-placement",
-    desc: "Assists clients in preparing for and completing the job search process to secure a position that aligns with their goals.",
-    tag: "Adult Services",
+    desc: "Job Placement walks clients through the entire job search process — from clarifying career goals to accepting an offer. We help build the tools needed to present confidently to employers, and work directly with businesses in the community to identify opportunities that are a genuine fit.",
+    highlights: [
+      "Resume development and interview preparation",
+      "Job search strategy and employer outreach",
+      "Application and follow-up support",
+      "Goal-aligned job matching",
+    ],
   },
   {
     title: "Job Skills Training",
     href: "/services/job-skills-training",
-    desc: "Goal-focused training that teaches and reinforces skills, develops workplace accommodations, and builds independence on the job.",
-    tag: "Adult Services",
+    desc: "Job Skills Training provides focused, individualized coaching for clients who need more structured support than a typical employer orientation can offer. Training happens at or near the worksite and is designed to reinforce skills, build independence, and develop accommodations that set the client up for success.",
+    highlights: [
+      "One-on-one training at or near the worksite",
+      "Skill reinforcement and habit building",
+      "Workplace accommodation development",
+      "Collaboration with employer and support team",
+    ],
   },
   {
     title: "Environmental Work Assessment",
     href: "/services/environmental-work-assessment",
-    desc: "Evaluates a client's skills across three or more work environments to identify variables affecting their ability to perform at full potential.",
-    tag: "Assessment",
+    desc: "Environmental Work Assessment places a client in three or more different work environments to observe how they respond, adapt, and perform. The findings directly inform the next phase of a client's vocational plan — helping identify the right job match, training needs, and accommodations.",
+    highlights: [
+      "Assessment across 3+ real work environments",
+      "Observation of skills, behavior, and adaptability",
+      "Identification of barriers and accommodations",
+      "Detailed findings to inform next steps",
+    ],
   },
   {
     title: "Work Experience",
     href: "/services/work-experience",
-    desc: "Short-term community business placements — volunteer or paid — designed to build real skills for long-term competitive employment.",
-    tag: "Adult Services",
+    desc: "Work Experience places clients in real community businesses — on a short-term volunteer or paid basis — to build the practical skills and professional habits needed for long-term employment. Our team stays actively involved throughout, providing support and coaching at each step.",
+    highlights: [
+      "Placement at real local businesses",
+      "Volunteer or temporary paid work settings",
+      "Skill building in an authentic work environment",
+      "Structured support from our team throughout",
+    ],
   },
   {
     title: "Summer Earn & Learn (SEAL)",
     href: "/services/summer-earn-and-learn",
-    desc: "A statewide program providing students with disabilities ages 14–22 with paid summer work experience and employability skills training.",
-    tag: "Student Services",
-  },
-  {
-    title: "Pre-Employment Transition Services (Pre-ETS)",
-    href: "/services/pre-employment-transition-services",
-    desc: "In-classroom work readiness program preparing students ages 14–22 for employment after graduation.",
-    tag: "Student Services",
+    desc: "The Summer Earn & Learn program connects students ages 14–22 to paid summer work placements alongside structured employability training. Participants leave with a paycheck, a résumé entry, and — most importantly — real confidence heading into the workforce.",
+    highlights: [
+      "For students ages 14–22",
+      "Paid work experience placements",
+      "Employability skills training",
+      "Statewide TWC program",
+    ],
   },
   {
     title: "Vocational Adjustment Training (VAT)",
     href: "/services/vocational-adjustment-training",
-    desc: "Practical classroom instruction and activities that prepare high school students with disabilities for competitive integrated employment.",
-    tag: "Student Services",
+    desc: "Vocational Adjustment Training prepares high school students for competitive employment through practical classroom instruction. VAT covers workplace communication, professional conduct, employer expectations, and the soft skills that make the difference between getting a job and keeping one.",
+    highlights: [
+      "For high school students",
+      "Classroom-based instruction and activities",
+      "Covers work habits, communication, and professional conduct",
+      "Prepares students for competitive integrated employment",
+    ],
   },
 ];
 
@@ -74,7 +103,7 @@ export default function ServicesPage() {
               Services Built Around Every Client
             </h1>
             <p className="text-gray-400 max-w-xl text-lg">
-              From first assessment to long-term employment support, our services are referred through the Texas Workforce Commission and tailored to each individual&apos;s needs.
+              All services are referred through the Texas Workforce Commission and tailored to each individual&apos;s abilities, goals, and employment path.
             </p>
           </div>
           <div className="relative h-72 md:h-80 rounded-2xl overflow-hidden">
@@ -88,32 +117,31 @@ export default function ServicesPage() {
         </div>
       </section>
 
-      {/* Services grid */}
-      <section className="py-20 px-6 bg-gray-50">
-        <div className="max-w-6xl mx-auto grid sm:grid-cols-2 gap-6">
+      {/* Services list */}
+      <section className="py-20 px-6 bg-white">
+        <div className="max-w-4xl mx-auto divide-y divide-gray-100">
           {services.map((s) => (
-            <Link
-              key={s.href}
-              href={s.href}
-              className="bg-white rounded-2xl p-8 border border-gray-100 hover:border-[#4a5b9a]/30 hover:shadow-md transition-all group flex flex-col"
-            >
-              <span className="text-xs uppercase tracking-widest text-[#4a5b9a] font-semibold mb-3">
-                {s.tag}
-              </span>
-              <h2 className="text-xl font-bold text-[#1a1a2e] mb-3 group-hover:text-[#4a5b9a] transition-colors">
-                {s.title}
-              </h2>
-              <p className="text-sm text-gray-500 leading-relaxed flex-1 mb-6">{s.desc}</p>
-              <span className="text-xs font-semibold text-[#4a5b9a] inline-flex items-center gap-1">
-                Learn more <ArrowRight size={12} />
-              </span>
-            </Link>
+            <div key={s.href} className="py-12 first:pt-0">
+              <h2 className="text-2xl font-bold text-[#1a1a2e] mb-4">{s.title}</h2>
+              <p className="text-gray-600 leading-relaxed mb-6">{s.desc}</p>
+              <ul className="grid sm:grid-cols-2 gap-2">
+                {s.highlights.map((h) => (
+                  <li key={h} className="flex items-start gap-2 text-sm text-gray-500">
+                    <span
+                      className="mt-1.5 w-1.5 h-1.5 rounded-full flex-shrink-0"
+                      style={{ backgroundColor: "#4a5b9a" }}
+                    />
+                    {h}
+                  </li>
+                ))}
+              </ul>
+            </div>
           ))}
         </div>
       </section>
 
       {/* CTA */}
-      <section className="py-20 px-6 bg-white text-center">
+      <section className="py-20 px-6 bg-gray-50 text-center">
         <p className="text-xs uppercase tracking-widest text-[#4a5b9a] font-semibold mb-4">Get Started</p>
         <h2 className="text-3xl font-bold text-[#1a1a2e] mb-4">Not sure which service fits?</h2>
         <p className="text-gray-500 max-w-md mx-auto mb-8">
