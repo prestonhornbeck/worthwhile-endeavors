@@ -10,12 +10,12 @@ export const metadata: Metadata = {
 };
 
 const services = [
-  { title: "Supported Employment", href: "/services/supported-employment", desc: "Individualized job matching and ongoing support to help clients enter and thrive in competitive employment." },
-  { title: "Job Placement", href: "/services/job-placement", desc: "End-to-end job search support to help clients land a position that fits their goals." },
-  { title: "Job Skills Training", href: "/services/job-skills-training", desc: "Goal-focused training that builds independence and meets employer expectations." },
-  { title: "Work Experience", href: "/services/work-experience", desc: "Short-term community placements that build real skills for long-term employment." },
-  { title: "Summer Earn & Learn", href: "/services/summer-earn-and-learn", desc: "Paid summer work experience and employability training for students ages 14–22." },
-  { title: "Vocational Adjustment Training", href: "/services/vocational-adjustment-training", desc: "Classroom instruction that prepares high school students for competitive employment." },
+  { title: "Supported Employment", href: "/services/supported-employment", desc: "Individualized job matching and ongoing support to help clients enter and thrive in competitive employment.", image: "/images/kitchen-coaching.jpeg", imageAlt: "Job coach working with client in kitchen" },
+  { title: "Job Placement", href: "/services/job-placement", desc: "End-to-end job search support to help clients land a position that fits their goals.", image: "/images/resume-search.jpeg", imageAlt: "Resume and job search process" },
+  { title: "Job Skills Training", href: "/services/job-skills-training", desc: "Goal-focused training that builds independence and meets employer expectations.", image: "/images/coaching-session.jpeg", imageAlt: "One-on-one coaching session" },
+  { title: "Work Experience", href: "/services/work-experience", desc: "Short-term community placements that build real skills for long-term employment.", image: "/images/bakery-training.jpeg", imageAlt: "Client working in a bakery setting" },
+  { title: "Summer Earn & Learn", href: "/services/summer-earn-and-learn", desc: "Paid summer work experience and employability training for students ages 14–22.", image: "/images/office-worker.jpeg", imageAlt: "Young person working independently at a desk" },
+  { title: "Vocational Adjustment Training", href: "/services/vocational-adjustment-training", desc: "Classroom instruction that prepares high school students for competitive employment.", image: "/images/job-interview.jpeg", imageAlt: "Job interview preparation" },
 ];
 
 const stats = [
@@ -34,7 +34,7 @@ export default function Home() {
           src="/images/hero-client-at-work.jpeg"
           alt="Client with Down syndrome smiling at work in a grocery store"
           fill
-          className="object-cover"
+          className="object-cover object-top"
           priority
         />
         <div className="absolute inset-0 bg-gradient-to-t from-[#2d3966]/90 via-[#2d3966]/50 to-transparent" />
@@ -123,15 +123,20 @@ export default function Home() {
               <Link
                 key={s.href}
                 href={s.href}
-                className="bg-white rounded-2xl p-6 border border-blue-100 hover:border-[#4a5b9a]/40 hover:shadow-md transition-all group"
+                className="bg-white rounded-2xl overflow-hidden border border-blue-100 hover:border-[#4a5b9a]/40 hover:shadow-md transition-all group"
               >
-                <h3 className="font-semibold text-[#1e2d4f] mb-2 group-hover:text-[#4a5b9a] transition-colors">
-                  {s.title}
-                </h3>
-                <p className="text-sm text-gray-500 leading-relaxed mb-4">{s.desc}</p>
-                <span className="text-xs font-semibold text-[#4a5b9a] inline-flex items-center gap-1">
-                  Learn more <ArrowRight size={12} />
-                </span>
+                <div className="relative h-44">
+                  <Image src={s.image} alt={s.imageAlt} fill className="object-cover" />
+                </div>
+                <div className="p-6">
+                  <h3 className="font-semibold text-[#1e2d4f] mb-2 group-hover:text-[#4a5b9a] transition-colors">
+                    {s.title}
+                  </h3>
+                  <p className="text-sm text-gray-500 leading-relaxed mb-4">{s.desc}</p>
+                  <span className="text-xs font-semibold text-[#4a5b9a] inline-flex items-center gap-1">
+                    Learn more <ArrowRight size={12} />
+                  </span>
+                </div>
               </Link>
             ))}
           </div>

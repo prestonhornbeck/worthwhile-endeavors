@@ -13,8 +13,8 @@ export default function SummerEarnAndLearn() {
       tag="Student Services"
       title="Summer Earn & Learn (SEAL)"
       subtitle="A statewide summer program that gives students with disabilities ages 14–22 paid work experience and the employability skills they need to succeed."
-      image="https://images.unsplash.com/photo-1529070538774-1843cb3265df?w=800&q=80"
-      imageAlt="Young adult working in a professional setting"
+      image="/images/office-worker.jpeg"
+      imageAlt="Young person working independently at a standing desk"
       highlights={[
         "For students with disabilities ages 14–22",
         "Paid work experience placements",

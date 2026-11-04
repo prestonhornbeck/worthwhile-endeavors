@@ -13,8 +13,8 @@ export default function JobSkillsTraining() {
       tag="Adult Services"
       title="Job Skills Training"
       subtitle="Targeted, goal-focused training that builds independence, reinforces workplace skills, and helps clients meet employer expectations."
-      image="https://images.unsplash.com/photo-1531482615713-2afd69097998?w=800&q=80"
-      imageAlt="Trainer working one-on-one with a client at a workstation"
+      image="/images/coaching-session.jpeg"
+      imageAlt="Job coach working one-on-one with a client"
       highlights={[
         "One-on-one training at or near the worksite",
         "Skill reinforcement and habit building",

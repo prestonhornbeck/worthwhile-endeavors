@@ -13,8 +13,8 @@ export default function WorkExperience() {
       tag="Adult Services"
       title="Work Experience"
       subtitle="Short-term placements in real community businesses that build the practical skills and confidence needed for long-term, competitive employment."
-      image="/images/hero-client-at-work.jpeg"
-      imageAlt="Client with Down syndrome working confidently in a grocery store"
+      image="/images/bakery-training.jpeg"
+      imageAlt="Job coach and client working together in a bakery"
       highlights={[
         "Placement at real local businesses",
         "Volunteer or temporary paid work settings",

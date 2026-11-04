@@ -13,8 +13,8 @@ export default function VAT() {
       tag="Student Services"
       title="Vocational Adjustment Training (VAT)"
       subtitle="Practical, classroom-based instruction that prepares high school students with disabilities for competitive, integrated employment."
-      image="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=800&q=80"
-      imageAlt="Students participating in a vocational training session"
+      image="/images/side-by-side.jpeg"
+      imageAlt="Two colleagues working side by side"
       highlights={[
         "For high school students with disabilities",
         "Classroom-based instruction and activities",
