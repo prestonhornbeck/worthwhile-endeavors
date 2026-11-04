@@ -31,10 +31,10 @@ export default function AboutPage() {
   return (
     <>
       {/* Header */}
-      <section className="bg-[#1a1a2e] pt-32 pb-20 px-6">
+      <section className="bg-[#2d3966] pt-32 pb-20 px-6">
         <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
           <div>
-            <p className="text-xs uppercase tracking-widest text-[#f5c842] font-semibold mb-4">
+            <p className="text-xs uppercase tracking-widest text-blue-200 font-semibold mb-4">
               Our Story
             </p>
             <h1 className="text-4xl md:text-5xl font-bold text-white leading-tight mb-6">
@@ -84,7 +84,7 @@ export default function AboutPage() {
             <p className="text-xs uppercase tracking-widest text-[#4a5b9a] font-semibold mb-4">
               Meet Paul Frey
             </p>
-            <h2 className="text-3xl font-bold text-[#1a1a2e] mb-6">
+            <h2 className="text-3xl font-bold text-[#2d3966] mb-6">
               A Career Built Around People with Disabilities
             </h2>
             <div className="space-y-4 text-gray-600 leading-relaxed">
@@ -123,7 +123,7 @@ export default function AboutPage() {
                   {i < 3 && <div className="w-px flex-1 mt-2" style={{ backgroundColor: "#4a5b9a", opacity: 0.2 }} />}
                 </div>
                 <div className="pb-6">
-                  <p className="font-semibold text-[#1a1a2e] mb-1">{item.label}</p>
+                  <p className="font-semibold text-[#2d3966] mb-1">{item.label}</p>
                   <p className="text-sm text-gray-500 leading-relaxed">{item.desc}</p>
                 </div>
               </div>
@@ -133,12 +133,12 @@ export default function AboutPage() {
       </section>
 
       {/* Values */}
-      <section className="py-20 px-6 bg-gray-50">
+      <section className="py-20 px-6 bg-[#f4f6fb]">
         <div className="max-w-6xl mx-auto">
           <p className="text-xs uppercase tracking-widest text-[#4a5b9a] font-semibold mb-4 text-center">
             What We Stand For
           </p>
-          <h2 className="text-3xl font-bold text-[#1a1a2e] text-center mb-14">
+          <h2 className="text-3xl font-bold text-[#2d3966] text-center mb-14">
             Our Values
           </h2>
           <div className="grid md:grid-cols-3 gap-8">
@@ -150,7 +150,7 @@ export default function AboutPage() {
                 >
                   <Icon size={22} className="text-white" />
                 </div>
-                <h3 className="font-bold text-[#1a1a2e] text-lg mb-3">{title}</h3>
+                <h3 className="font-bold text-[#2d3966] text-lg mb-3">{title}</h3>
                 <p className="text-sm text-gray-500 leading-relaxed">{desc}</p>
               </div>
             ))}
@@ -163,7 +163,7 @@ export default function AboutPage() {
         <p className="text-xs uppercase tracking-widest text-[#4a5b9a] font-semibold mb-4">
           Ready to Work Together?
         </p>
-        <h2 className="text-3xl font-bold text-[#1a1a2e] mb-4">
+        <h2 className="text-3xl font-bold text-[#2d3966] mb-4">
           Achieving More, Side by Side.
         </h2>
         <p className="text-gray-500 max-w-md mx-auto mb-8">

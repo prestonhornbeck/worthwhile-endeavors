@@ -93,10 +93,10 @@ export default function ServicesPage() {
   return (
     <>
       {/* Header */}
-      <section className="bg-[#1a1a2e] pt-32 pb-20 px-6">
+      <section className="bg-[#2d3966] pt-32 pb-20 px-6">
         <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
           <div>
-            <p className="text-xs uppercase tracking-widest text-[#f5c842] font-semibold mb-4">
+            <p className="text-xs uppercase tracking-widest text-blue-200 font-semibold mb-4">
               What We Offer
             </p>
             <h1 className="text-4xl md:text-5xl font-bold text-white leading-tight mb-6">
@@ -122,7 +122,7 @@ export default function ServicesPage() {
         <div className="max-w-4xl mx-auto divide-y divide-gray-100">
           {services.map((s) => (
             <div key={s.href} className="py-12 first:pt-0">
-              <h2 className="text-2xl font-bold text-[#1a1a2e] mb-4">{s.title}</h2>
+              <h2 className="text-2xl font-bold text-[#2d3966] mb-4">{s.title}</h2>
               <p className="text-gray-600 leading-relaxed mb-6">{s.desc}</p>
               <ul className="grid sm:grid-cols-2 gap-2">
                 {s.highlights.map((h) => (
@@ -141,9 +141,9 @@ export default function ServicesPage() {
       </section>
 
       {/* CTA */}
-      <section className="py-20 px-6 bg-gray-50 text-center">
+      <section className="py-20 px-6 bg-[#f4f6fb] text-center">
         <p className="text-xs uppercase tracking-widest text-[#4a5b9a] font-semibold mb-4">Get Started</p>
-        <h2 className="text-3xl font-bold text-[#1a1a2e] mb-4">Not sure which service fits?</h2>
+        <h2 className="text-3xl font-bold text-[#2d3966] mb-4">Not sure which service fits?</h2>
         <p className="text-gray-500 max-w-md mx-auto mb-8">
           Reach out and we&apos;ll help determine the right path — whether you&apos;re a client, a TWC case manager, or an employer.
         </p>

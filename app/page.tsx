@@ -37,16 +37,16 @@ export default function Home() {
           className="object-cover"
           priority
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-[#1a1a2e]/90 via-[#1a1a2e]/50 to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-t from-[#2d3966]/90 via-[#2d3966]/50 to-transparent" />
         <div className="relative z-10 max-w-6xl mx-auto px-6 pb-20 w-full">
-          <p className="text-xs uppercase tracking-widest text-[#f5c842] mb-4 font-semibold">
+          <p className="text-xs uppercase tracking-widest text-blue-200 mb-4 font-semibold">
             Workforce Services · Texas
           </p>
           <h1 className="text-4xl md:text-6xl font-bold text-white leading-tight max-w-2xl mb-6">
             Your Path to Meaningful Work Starts Here
           </h1>
-          <p className="text-lg text-gray-300 max-w-xl mb-8">
-            Worthwhile Endeavors partners with individuals with disabilities to prepare for, find, and keep competitive, integrated employment — side by side, every step of the way.
+          <p className="text-lg text-blue-100 max-w-xl mb-8">
+            Worthwhile Endeavors partners with TWC-referred individuals to prepare for, find, and keep competitive, integrated employment — side by side, every step of the way.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <Link
@@ -84,7 +84,7 @@ export default function Home() {
         <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-16 items-center">
           <div>
             <p className="text-xs uppercase tracking-widest text-[#4a5b9a] font-semibold mb-4">Our Mission</p>
-            <h2 className="text-3xl md:text-4xl font-bold text-[#1a1a2e] leading-tight mb-6">
+            <h2 className="text-3xl md:text-4xl font-bold text-[#1e2d4f] leading-tight mb-6">
               Achieving More, Side by Side.
             </h2>
             <p className="text-gray-600 leading-relaxed mb-8">
@@ -109,10 +109,10 @@ export default function Home() {
       </section>
 
       {/* Services */}
-      <section className="py-24 px-6 bg-gray-50">
+      <section className="py-24 px-6 bg-[#f4f6fb]">
         <div className="max-w-6xl mx-auto">
           <p className="text-xs uppercase tracking-widest text-[#4a5b9a] font-semibold mb-4 text-center">What We Offer</p>
-          <h2 className="text-3xl md:text-4xl font-bold text-[#1a1a2e] text-center mb-4">
+          <h2 className="text-3xl md:text-4xl font-bold text-[#1e2d4f] text-center mb-4">
             Services Built Around You
           </h2>
           <p className="text-gray-500 text-center max-w-xl mx-auto mb-14">
@@ -123,9 +123,9 @@ export default function Home() {
               <Link
                 key={s.href}
                 href={s.href}
-                className="bg-white rounded-2xl p-6 border border-gray-100 hover:border-[#4a5b9a]/30 hover:shadow-md transition-all group"
+                className="bg-white rounded-2xl p-6 border border-blue-100 hover:border-[#4a5b9a]/40 hover:shadow-md transition-all group"
               >
-                <h3 className="font-semibold text-[#1a1a2e] mb-2 group-hover:text-[#4a5b9a] transition-colors">
+                <h3 className="font-semibold text-[#1e2d4f] mb-2 group-hover:text-[#4a5b9a] transition-colors">
                   {s.title}
                 </h3>
                 <p className="text-sm text-gray-500 leading-relaxed mb-4">{s.desc}</p>
@@ -160,7 +160,7 @@ export default function Home() {
           </div>
           <div className="order-1 md:order-2">
             <p className="text-xs uppercase tracking-widest text-[#4a5b9a] font-semibold mb-4">For Employers</p>
-            <h2 className="text-3xl md:text-4xl font-bold text-[#1a1a2e] leading-tight mb-6">
+            <h2 className="text-3xl md:text-4xl font-bold text-[#1e2d4f] leading-tight mb-6">
               Hire Motivated, Job-Ready Talent
             </h2>
             <p className="text-gray-600 leading-relaxed mb-4">
@@ -181,9 +181,9 @@ export default function Home() {
       </section>
 
       {/* Testimonials */}
-      <section className="py-24 px-6 bg-[#1a1a2e]">
+      <section className="py-24 px-6 bg-[#2d3966]">
         <div className="max-w-6xl mx-auto">
-          <p className="text-xs uppercase tracking-widest text-[#f5c842] font-semibold mb-4 text-center">
+          <p className="text-xs uppercase tracking-widest text-blue-200 font-semibold mb-4 text-center">
             What People Are Saying
           </p>
           <h2 className="text-3xl md:text-4xl font-bold text-white text-center mb-14">
@@ -208,38 +208,34 @@ export default function Home() {
               },
             ].map((t) => (
               <div key={t.name} className="bg-white/5 border border-white/10 rounded-2xl p-8 flex flex-col">
-                <p className="text-gray-300 leading-relaxed text-sm flex-1 mb-6">
+                <p className="text-blue-100 leading-relaxed text-sm flex-1 mb-6">
                   &ldquo;{t.quote}&rdquo;
                 </p>
                 <div>
                   <p className="text-white font-semibold text-sm">{t.name}</p>
-                  <p className="text-xs text-[#f5c842] mt-1">{t.role}</p>
+                  <p className="text-xs text-blue-300 mt-1">{t.role}</p>
                 </div>
               </div>
             ))}
           </div>
-          <p className="text-center text-gray-600 text-xs mt-8">
+          <p className="text-center text-blue-900/60 text-xs mt-8">
             * Testimonials are representative of client and partner experiences.
           </p>
         </div>
       </section>
 
       {/* CTA */}
-      <section
-        className="py-24 px-6 text-white text-center"
-        style={{ backgroundColor: "#1a1a2e" }}
-      >
-        <p className="text-xs uppercase tracking-widest text-[#f5c842] font-semibold mb-4">Ready to Begin?</p>
+      <section className="py-24 px-6 text-white text-center bg-[#4a5b9a]">
+        <p className="text-xs uppercase tracking-widest text-blue-200 font-semibold mb-4">Ready to Begin?</p>
         <h2 className="text-3xl md:text-4xl font-bold mb-6 max-w-2xl mx-auto">
           Let&apos;s Find the Right Path Together
         </h2>
-        <p className="text-gray-400 max-w-xl mx-auto mb-10">
+        <p className="text-blue-100 max-w-xl mx-auto mb-10">
           Whether you&apos;re a client, a TWC case manager, or an employer, we&apos;d love to talk about how Worthwhile Endeavors can help.
         </p>
         <Link
           href="/contact"
-          className="inline-flex items-center gap-2 px-8 py-4 rounded-full font-semibold text-[#1a1a2e] text-sm transition-colors"
-          style={{ backgroundColor: "#f5c842" }}
+          className="inline-flex items-center gap-2 px-8 py-4 rounded-full font-semibold text-[#2d3966] text-sm transition-colors bg-white hover:bg-blue-50"
         >
           Contact Us <ArrowRight size={16} />
         </Link>

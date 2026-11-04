@@ -24,7 +24,7 @@ export default function ServicePage({
   return (
     <>
       {/* Header */}
-      <section className="bg-[#1a1a2e] pt-32 pb-20 px-6">
+      <section className="bg-[#2d3966] pt-32 pb-20 px-6">
         <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
           <div>
             <Link
@@ -33,7 +33,7 @@ export default function ServicePage({
             >
               <ArrowLeft size={12} /> All Services
             </Link>
-            <p className="text-xs uppercase tracking-widest text-[#f5c842] font-semibold mb-4">
+            <p className="text-xs uppercase tracking-widest text-blue-200 font-semibold mb-4">
               {tag}
             </p>
             <h1 className="text-4xl md:text-5xl font-bold text-white leading-tight mb-6">

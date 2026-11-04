@@ -11,9 +11,9 @@ export default function ContactPage() {
   return (
     <>
       {/* Header */}
-      <section className="bg-[#1a1a2e] pt-32 pb-20 px-6">
+      <section className="bg-[#2d3966] pt-32 pb-20 px-6">
         <div className="max-w-6xl mx-auto">
-          <p className="text-xs uppercase tracking-widest text-[#f5c842] font-semibold mb-4">
+          <p className="text-xs uppercase tracking-widest text-blue-200 font-semibold mb-4">
             Get in Touch
           </p>
           <h1 className="text-4xl md:text-5xl font-bold text-white leading-tight mb-6">
@@ -30,7 +30,7 @@ export default function ContactPage() {
         <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-16">
           {/* Contact info */}
           <div>
-            <h2 className="text-2xl font-bold text-[#1a1a2e] mb-8">Contact Information</h2>
+            <h2 className="text-2xl font-bold text-[#2d3966] mb-8">Contact Information</h2>
             <ul className="space-y-6">
               <li className="flex items-start gap-4">
                 <div
@@ -43,7 +43,7 @@ export default function ContactPage() {
                   <p className="text-xs uppercase tracking-widest text-gray-400 mb-1">Phone</p>
                   <a
                     href="tel:7174068286"
-                    className="text-[#1a1a2e] font-semibold hover:text-[#4a5b9a] transition-colors"
+                    className="text-[#2d3966] font-semibold hover:text-[#4a5b9a] transition-colors"
                   >
                     717-406-8286
                   </a>
@@ -60,7 +60,7 @@ export default function ContactPage() {
                   <p className="text-xs uppercase tracking-widest text-gray-400 mb-1">Email</p>
                   <a
                     href="mailto:Paul.Frey@iamworthwhile.org"
-                    className="text-[#1a1a2e] font-semibold hover:text-[#4a5b9a] transition-colors"
+                    className="text-[#2d3966] font-semibold hover:text-[#4a5b9a] transition-colors"
                   >
                     Paul.Frey@iamworthwhile.org
                   </a>
@@ -75,13 +75,13 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <p className="text-xs uppercase tracking-widest text-gray-400 mb-1">Location</p>
-                  <p className="text-[#1a1a2e] font-semibold">McKinney, TX</p>
+                  <p className="text-[#2d3966] font-semibold">McKinney, TX</p>
                   <p className="text-sm text-gray-500 mt-1">Serving McKinney, North Dallas, and the greater DFW area</p>
                 </div>
               </li>
             </ul>
 
-            <div className="mt-12 p-6 bg-gray-50 rounded-2xl border border-gray-100">
+            <div className="mt-12 p-6 bg-[#f4f6fb] rounded-2xl border border-gray-100">
               <p className="text-xs uppercase tracking-widest text-[#4a5b9a] font-semibold mb-3">
                 Referred by TWC?
               </p>
@@ -93,7 +93,7 @@ export default function ContactPage() {
 
           {/* Form */}
           <div>
-            <h2 className="text-2xl font-bold text-[#1a1a2e] mb-8">Send a Message</h2>
+            <h2 className="text-2xl font-bold text-[#2d3966] mb-8">Send a Message</h2>
             <form className="space-y-5">
               <div className="grid sm:grid-cols-2 gap-5">
                 <div>
@@ -103,7 +103,7 @@ export default function ContactPage() {
                   <input
                     type="text"
                     name="firstName"
-                    className="w-full border border-gray-200 rounded-xl px-4 py-3 text-sm text-[#1a1a2e] placeholder-gray-400 focus:outline-none focus:border-[#4a5b9a] transition-colors"
+                    className="w-full border border-gray-200 rounded-xl px-4 py-3 text-sm text-[#2d3966] placeholder-gray-400 focus:outline-none focus:border-[#4a5b9a] transition-colors"
                     placeholder="Jane"
                   />
                 </div>
@@ -114,7 +114,7 @@ export default function ContactPage() {
                   <input
                     type="text"
                     name="lastName"
-                    className="w-full border border-gray-200 rounded-xl px-4 py-3 text-sm text-[#1a1a2e] placeholder-gray-400 focus:outline-none focus:border-[#4a5b9a] transition-colors"
+                    className="w-full border border-gray-200 rounded-xl px-4 py-3 text-sm text-[#2d3966] placeholder-gray-400 focus:outline-none focus:border-[#4a5b9a] transition-colors"
                     placeholder="Smith"
                   />
                 </div>
@@ -126,7 +126,7 @@ export default function ContactPage() {
                 <input
                   type="email"
                   name="email"
-                  className="w-full border border-gray-200 rounded-xl px-4 py-3 text-sm text-[#1a1a2e] placeholder-gray-400 focus:outline-none focus:border-[#4a5b9a] transition-colors"
+                  className="w-full border border-gray-200 rounded-xl px-4 py-3 text-sm text-[#2d3966] placeholder-gray-400 focus:outline-none focus:border-[#4a5b9a] transition-colors"
                   placeholder="jane@example.com"
                 />
               </div>
@@ -137,7 +137,7 @@ export default function ContactPage() {
                 <input
                   type="tel"
                   name="phone"
-                  className="w-full border border-gray-200 rounded-xl px-4 py-3 text-sm text-[#1a1a2e] placeholder-gray-400 focus:outline-none focus:border-[#4a5b9a] transition-colors"
+                  className="w-full border border-gray-200 rounded-xl px-4 py-3 text-sm text-[#2d3966] placeholder-gray-400 focus:outline-none focus:border-[#4a5b9a] transition-colors"
                   placeholder="555-555-5555"
                 />
               </div>
@@ -147,7 +147,7 @@ export default function ContactPage() {
                 </label>
                 <select
                   name="role"
-                  className="w-full border border-gray-200 rounded-xl px-4 py-3 text-sm text-[#1a1a2e] focus:outline-none focus:border-[#4a5b9a] transition-colors appearance-none bg-white"
+                  className="w-full border border-gray-200 rounded-xl px-4 py-3 text-sm text-[#2d3966] focus:outline-none focus:border-[#4a5b9a] transition-colors appearance-none bg-white"
                 >
                   <option value="">Select one</option>
                   <option value="client">Client / Individual seeking services</option>
@@ -164,7 +164,7 @@ export default function ContactPage() {
                 <textarea
                   name="message"
                   rows={5}
-                  className="w-full border border-gray-200 rounded-xl px-4 py-3 text-sm text-[#1a1a2e] placeholder-gray-400 focus:outline-none focus:border-[#4a5b9a] transition-colors resize-none"
+                  className="w-full border border-gray-200 rounded-xl px-4 py-3 text-sm text-[#2d3966] placeholder-gray-400 focus:outline-none focus:border-[#4a5b9a] transition-colors resize-none"
                   placeholder="Tell us how we can help..."
                 />
               </div>

@@ -2,16 +2,18 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #1a1a2e;
+  --foreground: #1e2d4f;
   --blue: #4a5b9a;
-  --yellow: #f5c842;
+  --blue-dark: #2d3966;
+  --blue-soft: #f4f6fb;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --color-we-blue: var(--blue);
-  --color-we-yellow: var(--yellow);
+  --color-we-blue-dark: var(--blue-dark);
+  --color-we-blue-soft: var(--blue-soft);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }

@@ -43,10 +43,10 @@ export default function EmployersPage() {
   return (
     <>
       {/* Header */}
-      <section className="bg-[#1a1a2e] pt-32 pb-20 px-6">
+      <section className="bg-[#2d3966] pt-32 pb-20 px-6">
         <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
           <div>
-            <p className="text-xs uppercase tracking-widest text-[#f5c842] font-semibold mb-4">
+            <p className="text-xs uppercase tracking-widest text-blue-200 font-semibold mb-4">
               For Employers
             </p>
             <h1 className="text-4xl md:text-5xl font-bold text-white leading-tight mb-6">
@@ -75,12 +75,12 @@ export default function EmployersPage() {
       </section>
 
       {/* Benefits */}
-      <section className="py-20 px-6 bg-gray-50">
+      <section className="py-20 px-6 bg-[#f4f6fb]">
         <div className="max-w-6xl mx-auto">
           <p className="text-xs uppercase tracking-widest text-[#4a5b9a] font-semibold mb-4 text-center">
             Why Partner With Us
           </p>
-          <h2 className="text-3xl font-bold text-[#1a1a2e] text-center mb-14">
+          <h2 className="text-3xl font-bold text-[#2d3966] text-center mb-14">
             More Than a Referral. A Real Partnership.
           </h2>
           <div className="grid sm:grid-cols-2 gap-6">
@@ -92,7 +92,7 @@ export default function EmployersPage() {
                 >
                   <Icon size={22} className="text-white" />
                 </div>
-                <h3 className="font-bold text-[#1a1a2e] text-lg mb-3">{title}</h3>
+                <h3 className="font-bold text-[#2d3966] text-lg mb-3">{title}</h3>
                 <p className="text-sm text-gray-500 leading-relaxed">{desc}</p>
               </div>
             ))}
@@ -106,7 +106,7 @@ export default function EmployersPage() {
           <p className="text-xs uppercase tracking-widest text-[#4a5b9a] font-semibold mb-4 text-center">
             The Process
           </p>
-          <h2 className="text-3xl font-bold text-[#1a1a2e] text-center mb-14">
+          <h2 className="text-3xl font-bold text-[#2d3966] text-center mb-14">
             How It Works
           </h2>
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -115,7 +115,7 @@ export default function EmployersPage() {
                 <p className="text-4xl font-bold mb-4" style={{ color: "#4a5b9a", opacity: 0.25 }}>
                   {step.num}
                 </p>
-                <h3 className="font-bold text-[#1a1a2e] mb-3">{step.title}</h3>
+                <h3 className="font-bold text-[#2d3966] mb-3">{step.title}</h3>
                 <p className="text-sm text-gray-500 leading-relaxed">{step.desc}</p>
               </div>
             ))}
@@ -124,7 +124,7 @@ export default function EmployersPage() {
       </section>
 
       {/* What employers get */}
-      <section className="py-20 px-6 bg-gray-50">
+      <section className="py-20 px-6 bg-[#f4f6fb]">
         <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-16 items-center">
           <div className="relative h-72 md:h-96 rounded-2xl overflow-hidden">
             <Image
@@ -138,7 +138,7 @@ export default function EmployersPage() {
             <p className="text-xs uppercase tracking-widest text-[#4a5b9a] font-semibold mb-4">
               What You Can Expect
             </p>
-            <h2 className="text-3xl font-bold text-[#1a1a2e] mb-6">
+            <h2 className="text-3xl font-bold text-[#2d3966] mb-6">
               We Handle the Hard Part
             </h2>
             <ul className="space-y-4">
@@ -160,8 +160,8 @@ export default function EmployersPage() {
       </section>
 
       {/* CTA */}
-      <section className="py-20 px-6 text-center" style={{ backgroundColor: "#1a1a2e" }}>
-        <p className="text-xs uppercase tracking-widest text-[#f5c842] font-semibold mb-4">
+      <section className="py-20 px-6 text-center" style={{ backgroundColor: "#2d3966" }}>
+        <p className="text-xs uppercase tracking-widest text-blue-200 font-semibold mb-4">
           Let&apos;s Work Together
         </p>
         <h2 className="text-3xl font-bold text-white mb-4">
@@ -172,8 +172,8 @@ export default function EmployersPage() {
         </p>
         <Link
           href="/contact"
-          className="inline-flex items-center gap-2 px-8 py-4 rounded-full font-semibold text-[#1a1a2e] text-sm"
-          style={{ backgroundColor: "#f5c842" }}
+          className="inline-flex items-center gap-2 px-8 py-4 rounded-full font-semibold text-[#2d3966] text-sm"
+          style={{ backgroundColor: "#ffffff" }}
         >
           Contact Us <ArrowRight size={16} />
         </Link>
