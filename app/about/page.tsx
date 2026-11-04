@@ -51,10 +51,6 @@ export default function AboutPage() {
               fill
               className="object-cover"
             />
-            <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/60 to-transparent p-6">
-              <p className="text-white font-semibold">Paul Frey</p>
-              <p className="text-gray-300 text-sm">Director, Worthwhile Endeavors</p>
-            </div>
           </div>
         </div>
       </section>
@@ -72,7 +68,7 @@ export default function AboutPage() {
             &ldquo;WE&rdquo; Is More Than a Logo
           </h2>
           <p className="text-blue-100 text-lg leading-relaxed max-w-2xl mx-auto">
-            The name <em>Worthwhile Endeavors</em> — and the &ldquo;WE&rdquo; at the center of it — reflects Paul&apos;s core belief: that achieving more in life is not a solo effort. It takes clients, coaches, employers, and families working together. When everyone in that process is treated as worthwhile, the outcome changes.
+            The name <em>Worthwhile Endeavors</em> — and the &ldquo;WE&rdquo; at the center of it — reflects our core belief: that achieving more in life is not a solo effort. It takes clients, coaches, employers, and families working together. When everyone in that process is treated as worthwhile, the outcome changes.
           </p>
         </div>
       </section>
